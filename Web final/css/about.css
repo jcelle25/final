@@ -1,0 +1,198 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+
+nav{
+    height: 75px;
+    width: 100%;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+    background-image: linear-gradient(#69c3df,#2c5f6e);
+}
+
+nav .logo p{
+    font-size: 30px;
+    font-weight: bold;
+    float:left;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor:pointer;
+}
+
+nav ul{
+    float: right;
+}
+
+nav li{
+    display: inline-block;
+    list-style: none;
+}
+
+nav li a{
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+nav li a:hover{
+    color: #e637c0;
+    transition: all 0.4s ease0s;
+
+}
+
+nav .log span{
+    color: var(--pink);
+}
+
+li .content-items{
+    width: 1200px;
+    height: 500px;
+
+}
+
+div{
+    
+    padding: 5px;
+    font-size: 40px;
+}
+
+.img2{
+    float: left;
+}
+.clearfix{
+    overflow:auto;
+}
+li .content-items{
+    width: 1200px;
+    height: 500px;
+}
+div{
+    
+    padding: 5px;
+    font-size: 40px;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  .navbar{
+    display: flex;
+    background-color:rgb(60, 124, 197);
+    position: fixed;
+    top:0;
+    width: 100%;
+    font-size: 20px;
+  }
+  
+  .nav-right{
+    text-align: right;
+    float:right;
+  }
+  
+  .nav-right li {
+      display: inline;
+      float: left;
+      padding-left: 15px;
+    }
+  
+    .nav-right li a {
+      display: block;
+      padding: 8px;
+      text-decoration: none;
+      color:white;
+    }
+  
+    .nav-right  li ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+  
+    .nav-right li a:hover {
+      background-color: rgb(31, 199, 106);
+    }
+  
+    .nav-right .active {
+      background-color: #04AA6D;
+    }
+  
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 700px;
+  }
+  
+  .about-section {
+    padding: 70px;
+    text-align: center;
+    background-color: #8fe9f0;
+    color: white;
+  }
+  
+  .container {
+    padding: 0 40px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 50px ;
+  }
+ 
+  .para{
+    font-size: 50px ;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 30px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    font-size: 40px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
